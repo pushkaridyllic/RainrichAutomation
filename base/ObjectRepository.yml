@@ -1,0 +1,25 @@
+# xpath for smoke test
+login_id : admin_email
+password : admin_password
+login_button : //input[@type='submit']
+text_on_login_page : //*[text()='Password']
+dashboard : //span[text()='Dashboard']
+customers_link : //p[text()='Customers']
+customers_dashboard : //span[text()='Customers']
+last_record_on_customers : //td[text()='20']
+add_new_customer : //i[@class='glyphicon glyphicon-plus']
+first_name : first_name
+last_name : last_name
+email : primary_email
+phone_no : phone
+save_button_customer : //input[@name='commit']
+success_message : //div[@class='toast toast-success']/div
+scheduling_icon : //i[@class='fa fa-calendar-plus-o']
+add_appointment : //span[@class='add-price-btn pull-right']
+cusomer_field : //input[@class='customer_search1 form-control']
+first_serch_result : //div[@data-index='0']
+calendar_icon : //span[@class='glyphicon glyphicon-calendar']
+background_frame : //div[@class='add-customer-wrapper clearfix']
+time_icon : //span[@class='glyphicon glyphicon-time']
+select_printed : work_order_printed
+save_button_appointment : //input[@class='btn btn-primary save_btn' and @type!='submit']
